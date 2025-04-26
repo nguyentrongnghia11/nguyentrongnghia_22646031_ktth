@@ -1,0 +1,60 @@
+.header-wrapper {}
+
+
+/* Có thể thêm style bao ngoài nếu cần */
+
+
+/* Top Bar */
+
+.top-bar {
+    background-color: #000080;
+    /* Màu xanh đậm */
+    color: white;
+    padding: 5px 0;
+    font-size: 0.9em;
+}
+
+.top-bar .container .nav {
+    justify-content: flex-end;
+}
+
+.top-bar .nav-link {
+    color: white !important;
+    padding: 0.5rem 0.8rem;
+    display: flex;
+    /* Để căn icon và text theo chiều ngang */
+    align-items: center;
+    /* Căn giữa theo chiều dọc */
+}
+
+.top-bar .nav-link:hover {
+    color: #f0f0f0 !important;
+}
+
+
+/* Main Header */
+
+.main-header {
+    background-color: #e0f2f7;
+    /* Màu xanh nhạt hơn */
+    padding: 15px 0;
+}
+
+.main-header .row {
+    align-items: center;
+}
+
+.main-header h1 {
+    font-size: 1.5em;
+    /* Điều chỉnh kích thước tiêu đề */
+    color: #000080;
+    /* Màu chữ tiêu đề */
+    margin-bottom: 5px;
+}
+
+.main-header p {
+    font-size: 0.9em;
+    color: #495057;
+    /* Màu chữ slogan */
+    margin-bottom: 0;
+}
